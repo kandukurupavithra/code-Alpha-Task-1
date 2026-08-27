@@ -1,0 +1,10 @@
+{
+  "description": "Create stunning high-fidelity UX designs effortlessly with intuitive tools, ideal for designers seeking to enhance user experience and streamline workflows.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

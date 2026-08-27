@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-void: #0c0c0b;
+  --color-surface: #141413;
+  --color-panel: #1c1c1a;
+  --color-border: #2a2a27;
+  --color-border-bright: #3d3d38;
+  --color-text: #e8e6df;
+  --color-muted: #7a7870;
+  --color-dim: #4a4845;
+  --color-amber: #f5a623;
+  --color-amber-dim: #c47d10;
+  --color-green: #4caf7d;
+  --color-red: #e05252;
+  --color-blue: #5b8af0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  background-color: #0c0c0b;
+  color: #e8e6df;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* hide scrollbar until hover */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2a2a27; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #3d3d38; }
+
